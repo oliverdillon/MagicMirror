@@ -70,6 +70,9 @@ Temporary Items
 /config/*
 !/config/config.js.sample
 
+#Added for this project
+!/config/config.js
+
 # Vim
 ## swap
 [._]*.s[a-w][a-z]
