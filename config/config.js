@@ -50,7 +50,7 @@ let config = {
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
+			header: "English Holidays",
 			position: "top_left",
 			config: {
 				calendars: [
@@ -63,12 +63,18 @@ let config = {
 			}
 		},
 		{
-			module: "helloworld",
+			module: "calendar",
+			header: "TODAY_ACTIVITIES",
 			position: "lower_third",
 			config: {
-			  // See 'Configuration options' for more information.
-			  text: "Hello world!",
-			},
+				calendars: [
+					{
+						fetchInterval: 7 * 24 * 60 * 60 * 1000,
+						symbol: "calendar-check",
+						url: "REPLACE_WITH_SECRET_ADDRESS_IN_ICAL"
+					}
+				]
+			}
 		},
 		{
 			module: "weather",
