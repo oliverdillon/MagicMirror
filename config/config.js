@@ -69,7 +69,7 @@ let config = {
 			config: {
 				calendars: [
 					{
-						fetchInterval: 7 * 24 * 60 * 60 * 1000,
+						fetchInterval: 60000,
 						symbol: "calendar-check",
 						url: "REPLACE_WITH_SECRET_ADDRESS_IN_ICAL"
 					}
