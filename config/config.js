@@ -64,7 +64,7 @@ let config = {
 		},
 		{
 			module: "calendar",
-			header: "TODAY_ACTIVITIES",
+			header: "ACTIVITIES TODAY",
 			position: "lower_third",
 			config: {
 				calendars: [
